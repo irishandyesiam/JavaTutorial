@@ -5,11 +5,13 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in);
-		int scanned = sc.nextInt();
+		int x = 6;
+		int y = 7;
+		int z = 10;
 		
+		boolean compare = x != y;
 		
-		System.out.println(scanned);
+		System.out.println(compare);
 	}
 
 }
