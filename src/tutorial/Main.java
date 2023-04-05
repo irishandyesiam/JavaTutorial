@@ -5,17 +5,28 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		System.out.println("Input your age: ");
 		Scanner sc = new Scanner(System.in);
 		String s = sc.nextLine();
+		int age = Integer.parseInt(s);
 		
-		if (s.equals("tim")) {
-			System.out.println("You typed tim");
+		if (age >= 18 ) {
+			System.out.print("Input your fav food: ");
+			String food = sc.nextLine();
+			
+			if (food.equals("pizza")) {
+				System.out.println("Mine too");
+			}
+			else {
+				System.out.println("Not mine");
+			}
 		}
-		else if (s.equals("hello")) {
-			System.out.println("Hi!");
+		else if (age >= 13) {
+			System.out.println("You are a teenager.");
 		}
+		
 		else {
-			System.out.println("Print");
+			System.out.println("You are a not a teenager or an adult.");
 		}
 		
 		
