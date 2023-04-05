@@ -5,13 +5,20 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int x = 6;
-		int y = 7;
-		int z = 10;
+		Scanner sc = new Scanner(System.in);
+		String s = sc.nextLine();
 		
-		boolean compare = x != y;
+		if (s.equals("tim")) {
+			System.out.println("You typed tim");
+		}
+		else if (s.equals("hello")) {
+			System.out.println("Hi!");
+		}
+		else {
+			System.out.println("Print");
+		}
 		
-		System.out.println(compare);
+		
 	}
 
 }
