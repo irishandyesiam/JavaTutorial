@@ -15,30 +15,20 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Object Orientated Programming
-		Scanner sc = new Scanner(System.in);
-		//sc.next();
-		int x = 5;
-		String h = "hello";
-		h.length();
+		Dog tim = new Dog("tim", 4);
+		tim.speak();
+		Dog bob = new Dog("bob", 7);
+		bob.speak();
+		Dog bill = new Dog("bill", 11);
+		bill.speak();
 		
-		//Calling method with argument
-		tim("TIMMM!", 4);
-		System.out.println(add2(6));
-		System.out.println(str("hi"));
+		tim.speak();
+		
+		int x = bill.getAge();
+		System.out.println(x);
+		
+		tim.setAge(10);
+		tim.speak();
 	}
 	
-	// This is called a 'method' otherwise known as 'function'. Parameters. 
-	public static void tim(String str, int x) {
-		for (int i = 0; i < x; i++) {
-		System.out.println(str);
-		}
-	}
-	
-	public static int add2(int x) {
-		return x + 2;
-	}
-	
-	public static String str(String x) {
-		return x +"!";
-	}
 }
