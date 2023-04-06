@@ -15,27 +15,9 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Object Orientated Programming
-		Cat jim = new Cat("jim", 18, 100);
-		Dog tim = new Dog("tim", 4);
-		tim.speak();
-		Dog bob = new Dog("bob", 7);
-		bob.speak();
-		Dog bill = new Dog("bill", 11);
-		bill.speak();
-		Cat kim = new Cat("kim", 18, 100);
-		Cat rob = new Cat("rob", 7);
-		Cat joe = new Cat("joe");
-		kim.speak();
-		rob.speak();
-		joe.speak();
-		
-		jim.speak();
-		
-		int x = bill.getAge();
-		System.out.println(x);
-		
-		jim.setAge(10);
-		jim.speak();
+		Dog tim = new Dog("tim", 9);
+		Dog bill = new Dog("bill", 10);
+		Dog.count = 7;
+		System.out.println(tim.count);
 	}
-	
 }
