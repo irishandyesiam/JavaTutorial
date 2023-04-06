@@ -22,6 +22,12 @@ public class Main {
 		bob.speak();
 		Dog bill = new Dog("bill", 11);
 		bill.speak();
+		Cat kim = new Cat("kim", 18, 100);
+		Cat rob = new Cat("rob", 7);
+		Cat joe = new Cat("joe");
+		kim.speak();
+		rob.speak();
+		joe.speak();
 		
 		jim.speak();
 		

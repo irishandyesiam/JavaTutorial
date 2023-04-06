@@ -8,6 +8,15 @@ public class Cat extends Dog {
 		super(name, age);
 		this.food = food;
 	}
+	//default parameters
+	public Cat(String name, int age) {
+		super(name, age);
+		this.food = 50;
+	}
+	//default parameters
+	public Cat(String name) {
+		super(name, 0);
+	}
 	
 	public void speak() {
 		//Overrides speak method in Dog
