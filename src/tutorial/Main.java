@@ -2,6 +2,7 @@ package tutorial;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.TreeSet;
 import java.util.HashMap;
@@ -13,20 +14,15 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Given an array of characters or string, count all those characters into a map, key=letter How many times does a letter appear?
-		Map m = new HashMap();
-		String str = "hello my name is tim and i am cool";
+		// SORTING
+		int[] x = {-99,5,6,3,2,1,7,8,0};
 		
-		for(char x:str.toCharArray()) {
-			if (m.containsKey(x)) {
-				int old = (int) m.get(x);
-				m.put(x, old+1);
-			}
-			else {
-				m.put(x, 1);
-			}
+		Arrays.sort(x);
+		
+		for(int i:x) {
+			System.out.print(i + ",");
 		}
-		System.out.println(m);
+		
 	}
 	
 }
