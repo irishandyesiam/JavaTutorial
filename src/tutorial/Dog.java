@@ -11,5 +11,15 @@ public class Dog {
 		this.name = name;
 		this.age = age;
 		Dog.count += 1;
+		Dog.display2();
 	}
+	
+	public void display2() {
+		System.out.println("I am a dog!");
+	}
+	
+	public static void display() {
+		System.out.println("I am a dog!");
+	}
+	
 }
