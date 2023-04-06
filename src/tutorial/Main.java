@@ -1,6 +1,7 @@
 package tutorial;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.TreeSet;
 
@@ -8,22 +9,21 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		ArrayList<Integer> t = new ArrayList<Integer>();
+		//LinkedList??? Faster at certain opperations.
+		t.add(1);
+		t.add(2);
+		t.add(1);
+		t.add(2);
+		t.add(1);
+		t.add(2);
+		t.get(0);
+		t.set(1, 5);
+		//t.size();
+		//t.Empty();
+		t.subList(1, 4);
 		
-		//Set, HashSet, TreeSet, LinkedHashSet
-		
-		Set<Integer> t = new TreeSet<Integer>();
-		t.add(5);
-		t.add(7);
-		t.add(9);
-		t.add(5);
-		t.add(-8);
-		t.remove(9);
-		t.isEmpty();
-		t.clear();
-		
-		boolean x = t.isEmpty();
-		
-		System.out.println(t);
+		System.out.println(t.subList(1, 4));
 	}
 	
 }
