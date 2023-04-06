@@ -23,6 +23,8 @@ public class Main {
 		
 		//Calling method with argument
 		tim("TIMMM!", 4);
+		System.out.println(add2(6));
+		System.out.println(str("hi"));
 	}
 	
 	// This is called a 'method' otherwise known as 'function'. Parameters. 
@@ -30,5 +32,13 @@ public class Main {
 		for (int i = 0; i < x; i++) {
 		System.out.println(str);
 		}
+	}
+	
+	public static int add2(int x) {
+		return x + 2;
+	}
+	
+	public static String str(String x) {
+		return x +"!";
 	}
 }
