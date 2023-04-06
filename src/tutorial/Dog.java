@@ -1,8 +1,10 @@
 package tutorial;
 
 public class Dog {
-	public String name;
-	public int age;
+	
+	//Use protected with attributes within subclasses
+	protected String name;
+	protected int age;
 	
 	//constructor method
 	public Dog(String name, int age) {
