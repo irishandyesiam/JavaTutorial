@@ -1,2 +1,2 @@
 # JavaTutorial
-Step by step tutorial reviewing all basics of java and learning Eclipse IDE.
+Step by step tutorial learning Eclipse IDE and reviewing java.
