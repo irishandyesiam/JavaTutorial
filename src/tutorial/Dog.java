@@ -1,8 +1,8 @@
 package tutorial;
 
 public class Dog {
-	private String name;
-	private int age;
+	public String name;
+	public int age;
 	
 	//constructor method
 	public Dog(String name, int age) {

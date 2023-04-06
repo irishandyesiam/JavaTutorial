@@ -15,6 +15,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Object Orientated Programming
+		Cat jim = new Cat("jim", 18, 100);
 		Dog tim = new Dog("tim", 4);
 		tim.speak();
 		Dog bob = new Dog("bob", 7);
@@ -22,13 +23,13 @@ public class Main {
 		Dog bill = new Dog("bill", 11);
 		bill.speak();
 		
-		tim.speak();
+		jim.speak();
 		
 		int x = bill.getAge();
 		System.out.println(x);
 		
-		tim.setAge(10);
-		tim.speak();
+		jim.setAge(10);
+		jim.speak();
 	}
 	
 }
