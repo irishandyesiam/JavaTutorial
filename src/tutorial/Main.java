@@ -15,19 +15,18 @@ public class Main {
 		// TODO Auto-generated method stub
 		// Given an array of characters or string, count all those characters into a map, key=letter How many times does a letter appear?
 		Map m = new HashMap();
-		m.put("tim", 5);
-		m.put("joe", "x");
-		m.put("11", 999);
+		String str = "hello my name is tim and i am cool";
 		
-		m.containsValue("b");
-		m.containsKey(5);
-		m.values();
-		m.get("tim");
-		
-		m.clear();
-		
+		for(char x:str.toCharArray()) {
+			if (m.containsKey(x)) {
+				int old = (int) m.get(x);
+				m.put(x, old+1);
+			}
+			else {
+				m.put(x, 1);
+			}
+		}
 		System.out.println(m);
-	
 	}
 	
 }
