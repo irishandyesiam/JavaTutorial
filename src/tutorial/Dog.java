@@ -11,7 +11,7 @@ public class Dog {
 		this.name = name;
 		this.age = age;
 		Dog.count += 1;
-		Dog.display2();
+		Dog.display();
 	}
 	
 	public void display2() {
