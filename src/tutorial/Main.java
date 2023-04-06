@@ -14,15 +14,21 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// SORTING
-		int[] x = {-99,5,6,3,2,1,7,8,0};
+		// Object Orientated Programming
+		Scanner sc = new Scanner(System.in);
+		//sc.next();
+		int x = 5;
+		String h = "hello";
+		h.length();
 		
-		Arrays.sort(x);
-		
-		for(int i:x) {
-			System.out.print(i + ",");
-		}
-		
+		//Calling method with argument
+		tim("TIMMM!", 4);
 	}
 	
+	// This is called a 'method' otherwise known as 'function'. Parameters. 
+	public static void tim(String str, int x) {
+		for (int i = 0; i < x; i++) {
+		System.out.println(str);
+		}
+	}
 }
