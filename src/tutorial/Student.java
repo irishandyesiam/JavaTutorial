@@ -1,6 +1,6 @@
 package tutorial;
 
-public class Student {
+public class Student implements Comparable<Student>{
 	
 	private String name;
 	
@@ -16,4 +16,9 @@ public class Student {
 			return false;
 		}
 	}
+	
+	public int compareTo(Student other) {
+		return this.name.compareTo(other.name);
+	}
+	
 }
