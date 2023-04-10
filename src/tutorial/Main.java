@@ -15,18 +15,12 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Object Orientated Programming
-		Student joe = new Student("Joe");
-		Student bill = new Student("Bill");
-		Student tim = new Student("Tim");
-		Student nick = new Student("Bill");
+		OuterClass out = new OuterClass();
+		OuterClass.InnerClass in = out.new InnerClass();
 		
-		System.out.println(joe.equals(bill));
-		System.out.println(bill.equals(nick));
-		System.out.println(tim.equals(bill));
-		System.out.println(joe.compareTo(bill));
-		System.out.println(joe.compareTo(bill) > 0);
-		System.out.println(joe.compareTo(tim));
-		System.out.println(joe.compareTo(tim) > 0);
+		in.display();
+		
+		System.out.println();
 	}
 	
 	
