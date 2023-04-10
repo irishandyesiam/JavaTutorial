@@ -19,7 +19,8 @@ public class Main {
 		Student bill = new Student("Joe");
 		Student tim = new Student("Tim");
 		
-		System.out.println(joe == bill);
+		System.out.println(joe.equals(bill));
+		System.out.println(tim.equals(bill));
 	}
 	
 	
