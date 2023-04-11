@@ -15,12 +15,10 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Object Orientated Programming
-		OuterClass out = new OuterClass();
-		OuterClass.InnerClass in = out.new InnerClass();
-		
-		in.display();
-		
-		System.out.println();
+		Car ford = new Car();
+		ford.speedUp(10);
+		ford.changeGear(2);
+		ford.display();
 	}
 	
 	
