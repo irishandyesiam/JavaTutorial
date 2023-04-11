@@ -19,6 +19,9 @@ public class Main {
 		ford.speedUp(10);
 		ford.changeGear(2);
 		ford.display();
+		
+		int x = Vehicle.math(5);
+		System.out.print(x);
 	}
 	
 	

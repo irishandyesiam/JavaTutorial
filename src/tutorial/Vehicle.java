@@ -10,4 +10,13 @@ public interface Vehicle {
 	//defines the method
 	void slowDown(int a);
 	void changeGear(int a);
+	
+	default void out() {
+		System.out.println("Default Method");
+	}
+	
+	// can have static methods in interfaces
+	static int math(int b) {
+		return b + 9;
+	}
 }
