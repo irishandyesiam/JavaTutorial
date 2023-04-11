@@ -15,7 +15,7 @@ public interface Vehicle {
 		System.out.println("Default Method");
 	}
 	
-	// can have static methods in interfaces
+	// can have static methods in interfaces -- think of them as functions
 	static int math(int b) {
 		return b + 9;
 	}

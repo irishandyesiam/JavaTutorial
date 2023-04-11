@@ -14,14 +14,16 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Object Orientated Programming
-		Car ford = new Car();
-		ford.speedUp(10);
-		ford.changeGear(2);
-		ford.display();
+		Level lvl = Level.LOW;
 		
-		int x = Vehicle.math(5);
-		System.out.print(x);
+		//check what value constant is
+		if (lvl == Level.LOW) {
+			System.out.println(lvl);
+		}else if (lvl == Level.MEDIUM) {
+			System.out.println(lvl);
+		}else {
+			System.out.println(lvl);
+		}
 	}
 	
 	
